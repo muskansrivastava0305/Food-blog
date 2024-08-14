@@ -19,7 +19,7 @@ function App() {
       </nav>
       </div>
 
-      <div className=' gap-4 justify-between flex-row md:flex'>
+      <div className=' gap-4 justify-between  md:flex flex-row'>
         
         <div className=' flex flex-col gap-3'>
           <h1 className='font-bold  text-white text-7xl '>BROWINE MAGIC</h1>
