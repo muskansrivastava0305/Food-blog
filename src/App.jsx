@@ -3,13 +3,13 @@ import React from 'react'
 
 function App() {
   return (
-    <div>
-      <div>
-     <div>
+    <div className=' bg-green-700 flex flex-col gap-10 m-5 p-10'>
+      <div className=' flex justify-between '>
+     <div className=' font-bold text-white text-5xl font-mono'>
         <h1>My Food</h1>
       </div>
       <nav>
-        <ul>
+        <ul  className=' flex gap-7  text-white text-xl'>
           <li>Home</li>
           <li>Recipe</li>
           <li>Tip</li>
@@ -20,9 +20,10 @@ function App() {
       </div>
 
       <div>
-        <div>
-          <h1 className='font-bold'>BROWINE MAGIC</h1>
-          <p className=' text-red-600'>5 Tips to how to make Broeines in the game</p>
+        
+        <div className=' justify-center '>
+          <h1 className='font-bold  text-white text-7xl '>BROWINE MAGIC</h1>
+          <p className=' '>5 Tips to how to make Broeines in the game</p>
           <div>
             <button>How to</button>
             <button>Baking</button>
